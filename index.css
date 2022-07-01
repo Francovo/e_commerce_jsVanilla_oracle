@@ -74,10 +74,13 @@ body::-webkit-scrollbar-thumb {
 
 .Banner {
   height: 40vh;
-  background-image: url("https://res.cloudinary.com/aca-geek/image/upload/v1656717840/E_Commerce/banner_ksmzjy.png");
-  background-size: 100% 100%;
   color: white;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%),
+    url("https://res.cloudinary.com/aca-geek/image/upload/v1656717840/E_Commerce/banner_ksmzjy.png");
   border-radius: 30px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
   position: relative;
 }
 
@@ -151,11 +154,11 @@ body::-webkit-scrollbar-thumb {
 }
 
 /* BOTONES ADMIN */
-.ContainerBtnAdminnone{
+.ContainerBtnAdminnone {
   display: none;
 }
 
-.ContainerBtnAdmin{
+.ContainerBtnAdmin {
   display: flex;
   gap: 1rem;
   position: absolute;
@@ -165,7 +168,6 @@ body::-webkit-scrollbar-thumb {
   cursor: pointer;
 }
 /*  */
-
 
 .ImgCard {
   width: 100%;
@@ -192,7 +194,7 @@ body::-webkit-scrollbar-thumb {
   border-radius: 5px;
 }
 
-.btnCart:hover{
+.btnCart:hover {
   border-color: white;
   background-color: #2a7ae4;
   color: white;
@@ -225,53 +227,52 @@ body::-webkit-scrollbar-thumb {
   width: 100%;
 }
 
-
 /* CONTACTO */
 
-footer{
-  background-color: #EAF2FD;
+footer {
+  background-color: #eaf2fd;
   padding: 10rem;
   display: flex;
   justify-content: space-around;
   margin-top: 3rem;
 }
 
-.LogoFooter{
+.LogoFooter {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.ContainerLogoFooter{
+.ContainerLogoFooter {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.link{
+.link {
   color: black;
 }
 
-.form_Contacto{
+.form_Contacto {
   display: flex;
   flex-direction: column;
   gap: 2rem;
   width: 500px;
   margin-top: 1rem;
-
-}input, textarea{
-    border: none;
-    border-radius: 20px;
-    padding: 1rem;
-    resize: none;
-
-    
-}textarea{
-    height: 100px;
+}
+input,
+textarea {
+  border: none;
+  border-radius: 20px;
+  padding: 1rem;
+  resize: none;
+}
+textarea {
+  height: 100px;
 }
 
-.Btn_Contacto{
+.Btn_Contacto {
   background-color: #2a7ae4;
   color: white;
   font-size: small;
@@ -281,7 +282,6 @@ footer{
   border-radius: 10px;
 }
 /*  */
-
 
 @media (max-width: 900px) {
   .NavBar {
@@ -328,13 +328,13 @@ footer{
   }
 
   .BannerText {
-    padding: 2rem 1rem;
+    padding: 2rem 1rem 1rem 1rem;
     flex-wrap: wrap;
     font-size: 13px;
   }
 
   .TextPromo {
-    font-size: 22px;
+    font-size: 20px;
   }
 
   .btnBanner {
@@ -380,26 +380,26 @@ footer{
     margin-top: 1rem;
   }
 
-  footer{
+  footer {
     flex-direction: column;
     padding: 2rem;
     gap: 2rem;
   }
 
-  .ImgFooter{
+  .ImgFooter {
     width: 100px;
   }
 
-  .form_Contacto{
+  .form_Contacto {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: auto;
-    margin-top: 1rem;}
-    h2{
-      display: flex;
-      justify-content: center;
-    }
-  
+    margin-top: 1rem;
+  }
+  h2 {
+    display: flex;
+    justify-content: center;
+  }
 }
