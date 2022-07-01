@@ -210,16 +210,21 @@ body::-webkit-scrollbar-thumb {
 
   .Banner{
     height: 35vh;
-    z-index: 1;
+    position: relative;
+    z-index: 2;
   }
 
   .BannerText {
     padding: 2rem 2rem;
     display: flex;
     width: fit-content;
-    height: 150px;
+    height: fit-content;
     flex-wrap: wrap;
     font-size: 15px;
+  }
+
+  .TextPromo {
+    font-size: 27px;
   }
 
   .btnBanner {
