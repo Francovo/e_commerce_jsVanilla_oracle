@@ -173,6 +173,8 @@ body::-webkit-scrollbar-thumb {
     margin: 1rem 0;
     display: flex;
     justify-content: space-around;
+    border: solid;
+    background-color: white;
   }
 
   .TextLogo {
