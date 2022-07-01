@@ -174,7 +174,8 @@ body::-webkit-scrollbar-thumb {
     display: flex;
     justify-content: space-around;
     background-color: white;
-    z-index: 2;
+    position: relative;
+    z-index: 3;
   }
 
   .TextLogo {
@@ -208,6 +209,7 @@ body::-webkit-scrollbar-thumb {
   }
 
   .Banner{
+    height: 35vh;
     z-index: 1;
   }
 
@@ -215,8 +217,15 @@ body::-webkit-scrollbar-thumb {
     padding: 2rem 2rem;
     display: flex;
     width: fit-content;
+    height: 150px;
     flex-wrap: wrap;
     font-size: 15px;
+  }
+
+  .btnBanner {
+    font-size: small;
+    padding: 0.5rem .8rem;
+
   }
 
   .ContainerbtnLogin {
