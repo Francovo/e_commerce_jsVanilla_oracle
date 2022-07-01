@@ -395,6 +395,9 @@ footer{
     gap: 2rem;
   }
 
+  .ImgFooter{
+    width: 100px;
+  }
 
   .form_Contacto{
     display: flex;
