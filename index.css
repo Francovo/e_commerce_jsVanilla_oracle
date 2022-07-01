@@ -143,7 +143,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .Card {
-  width: 170px;
+  width: 180px;
   display: flex;
   position: relative;
   flex-direction: column;
@@ -382,7 +382,7 @@ footer{
     gap: 10px;
   }
   .Card {
-    width: 150px;
+    width: 145px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
