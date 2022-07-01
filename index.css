@@ -1,0 +1,253 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #2a7ae4;
+}
+
+.NavBar {
+  margin: 1rem 6rem;
+  display: flex;
+  align-items: center;
+}
+
+.btnLogo {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+}
+
+.ImgLogo {
+  margin-right: 1rem;
+}
+
+.InputSearch {
+  margin-left: 2rem;
+  border-radius: 10px 0 0 10px;
+  padding: 0.5rem;
+  width: 60%;
+  background: #f5f5f5;
+  border: none;
+  outline: none;
+}
+
+.btnSearch {
+  background: #f5f5f5;
+  border: none;
+  display: flex;
+  align-items: center;
+  border-radius: 0 10px 10px 0;
+  cursor: pointer;
+}
+
+.icon {
+  color: #a2a2a2;
+  height: 29px;
+  width: 17px;
+}
+
+.ContainerbtnLogin {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.BtnLogin {
+  color: #2a7ae4;
+  border-color: #2a7ae4;
+  cursor: pointer;
+  background: transparent;
+  padding: 0.6rem 3rem;
+}
+
+.Banner {
+  border: solid;
+  height: 40vh;
+  background-image: url("https://as2.ftcdn.net/v2/jpg/03/08/57/39/1000_F_308573978_cskhOCNR7Klh5m7ey0KfBA0TnDZIjdeB.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.BannerText {
+  padding: 4rem 7rem;
+}
+
+.TextPromo {
+  font-size: 40px;
+}
+
+.btnBanner {
+  background-color: #2a7ae4;
+  color: white;
+  font-size: small;
+  padding: 0.8rem 1.3rem;
+  border: none;
+  cursor: pointer;
+}
+
+.CardData {
+  margin: 3rem 8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.containerCard {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.Type {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btnType {
+  color: #2a7ae4;
+  font-size: 15px;
+  display: flex;
+  font-weight: bold;
+  border: none;
+  background: transparent;
+  align-items: center;
+  margin-right: 2rem;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.IconArrow {
+  width: 20px;
+  height: 20px;
+}
+
+.Card {
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 7px;
+}
+
+.ImgCard {
+  width: 100%;
+  height: auto;
+}
+
+.h1name {
+  margin-top: 18px;
+  font-size: medium;
+  font-weight: 100;
+}
+
+.h1price {
+  font-size: larger;
+}
+
+.btnCard {
+  color: #2a7ae4;
+  background: transparent;
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 0%;
+  cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  .NavBar {
+    margin: 1rem 0;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .TextLogo {
+    display: none;
+  }
+
+  .InputSearch {
+    border-radius: 10px;
+    width: 150px;
+    margin: 0;
+  }
+
+  .btnSearch {
+    display: none;
+  }
+
+  .btnLogo {
+    width: fit-content;
+  }
+
+  .ImgLogo {
+    margin: 0;
+  }
+
+  .BtnLogin {
+    color: #2a7ae4;
+    border-color: #2a7ae4;
+    cursor: pointer;
+    background: transparent;
+    padding: 0.4rem 2rem;
+  }
+
+  .BannerText {
+    padding: 2rem 2rem;
+    display: flex;
+    width: fit-content;
+    flex-wrap: wrap;
+    font-size: 15px;
+  }
+
+  .ContainerbtnLogin {
+    width: fit-content;
+  }
+
+  .Type {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 380px;
+    margin-top: 3rem;
+    height: 50px;
+  }
+  .btnType {
+    margin-right: 0;
+    gap: 10px;
+  }
+
+  .containerCard {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .CardData {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .Card {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 1rem;
+  }
+}
