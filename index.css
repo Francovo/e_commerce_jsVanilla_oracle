@@ -207,6 +207,10 @@ body::-webkit-scrollbar-thumb {
     padding: 0.4rem 2rem;
   }
 
+  .Banner{
+    z-index: 1;
+  }
+
   .BannerText {
     padding: 2rem 2rem;
     display: flex;
