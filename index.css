@@ -73,8 +73,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 .Banner {
-  height: auto;
-  background-image: url("https://as2.ftcdn.net/v2/jpg/03/08/57/39/1000_F_308573978_cskhOCNR7Klh5m7ey0KfBA0TnDZIjdeB.jpg");
+  height: 40vh;
+  background-image: url("https://res.cloudinary.com/aca-geek/image/upload/v1656717840/E_Commerce/banner_ksmzjy.png");
   background-size: 100% 100%;
   color: white;
   border-radius: 30px;
@@ -82,7 +82,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .BannerText {
-  padding: 4rem 7rem;
+  padding: 6rem 7rem;
 }
 
 .TextPromo {
@@ -329,13 +329,12 @@ footer{
 
   .BannerText {
     padding: 2rem 1rem;
-    display: flex;
     flex-wrap: wrap;
-    font-size: 15px;
+    font-size: 13px;
   }
 
   .TextPromo {
-    font-size: 27px;
+    font-size: 22px;
   }
 
   .btnBanner {
