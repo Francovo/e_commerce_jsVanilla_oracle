@@ -105,7 +105,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .CardData {
-  margin: 3rem 8rem;
+  margin: 3rem 7rem;
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -143,7 +143,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .Card {
-  width: 180px;
+  width: 170px;
   display: flex;
   position: relative;
   flex-direction: column;
@@ -238,6 +238,7 @@ footer{
   padding: 10rem;
   display: flex;
   justify-content: space-around;
+  margin-top: 3rem;
 }
 
 .LogoFooter{
@@ -358,7 +359,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 380px;
+    width: 350px;
     margin-top: 3rem;
     height: 50px;
   }
