@@ -323,16 +323,13 @@ footer{
   }
 
   .Banner {
-    height: 35vh;
-    position: relative;
-    z-index: 2;
+    margin-top: 2rem;
+    height: auto;
   }
 
   .BannerText {
-    padding: 2rem 2rem;
+    padding: 2rem 1rem;
     display: flex;
-    width: fit-content;
-    height: fit-content;
     flex-wrap: wrap;
     font-size: 15px;
   }
