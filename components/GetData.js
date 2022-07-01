@@ -82,8 +82,9 @@ GetData().then((Data) => {
   });
 });
 
-const RedirectAll = () => {
-  window.location.assign("http://127.0.0.1:5500/all.html");
+const RedirectAll = (cont) => {
+  //Aqui estoy definiendo los datos que usare luego en el useParams del allJs
+  window.location.assign(`http://127.0.0.1:5500/all.html?cont=${cont}`);
 };
 
 const RedirectHome = () => {

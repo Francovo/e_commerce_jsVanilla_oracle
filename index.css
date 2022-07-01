@@ -138,7 +138,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .Card {
-  width: 180px;
+  width: 170px;
   display: flex;
   position: relative;
   flex-direction: column;

@@ -41,7 +41,7 @@
     <div class="CardData">
       <div class="Type">
         <h1>Star Wars</h1>
-        <button class="btnType" onclick="{RedirectAll()}">
+        <button class="btnType" onclick="{RedirectAll(1)}">
           Ver Todo
           <ion-icon name="arrow-forward-outline" class="IconArrow"></ion-icon>
         </button>
@@ -49,7 +49,7 @@
       <div id="StarWars" class="containerCard"></div>
       <div class="Type">
         <h1>Consolas</h1>
-        <button class="btnType">
+        <button class="btnType"  onclick="{RedirectAll(2)}">
           Ver Todo
           <ion-icon name="arrow-forward-outline" class="IconArrow"></ion-icon>
         </button>
@@ -57,7 +57,7 @@
       <div id="Consolas" class="containerCard"></div>
       <div class="Type">
         <h1>Diversos</h1>
-        <button class="btnType">
+        <button class="btnType" onclick="{RedirectAll(3)}">
           Ver Todo
           <ion-icon name="arrow-forward-outline" class="IconArrow"></ion-icon>
         </button>
@@ -113,5 +113,6 @@
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
     <script src="/components/GetData.js"></script>
+    <script src="/components/all.js"></script>
   </body>
 </html>
