@@ -18,12 +18,21 @@ GetData().then((Data) => {
     if (index <= 5) {
       document.getElementById("StarWars").innerHTML += `
         <div class="Card"  key={${index}}>
+        <div class="ContainerBtnAdminnone">
+        <ion-icon name="pencil"></ion-icon>
+        <ion-icon name="trash"></ion-icon>
+        </div>
           <img
             src="${data.urlimagen}"
             class="ImgCard"
           />
+          <div class="ContainerIconCart">
           <h1 class="h1name">${data.nombre}</h1>
-          <h1 class="h1price">$ ${data.precio}.00</h1>
+          <button class="btnCart">
+          <ion-icon name="cart-outline" class="IconCart"></ion-icon>
+          </button>
+          </div>
+          <h1 class="h1price">$${data.precio}.00</h1>
           <button class="btnCard">Ver Producto</button>
         </div>
       `;
@@ -38,7 +47,12 @@ GetData().then((Data) => {
           src="${data.urlimagen}"
           class="ImgCard"
         />
+        <div class="ContainerIconCart">
         <h1 class="h1name">${data.nombre}</h1>
+        <button class="btnCart">
+        <ion-icon name="cart-outline" class="IconCart"></ion-icon>
+        </button>
+        </div>        
         <h1 class="h1price">$ ${data.precio}.00</h1>
         <button class="btnCard">Ver Producto</button>
       </div>
@@ -54,7 +68,12 @@ GetData().then((Data) => {
         src="${data.urlimagen}"
         class="ImgCard"
       />
+      <div class="ContainerIconCart">
       <h1 class="h1name">${data.nombre}</h1>
+      <button class="btnCart">
+      <ion-icon name="cart-outline" class="IconCart"></ion-icon>
+      </button>
+      </div>      
       <h1 class="h1price">$ ${data.precio}.00</h1>
       <button class="btnCard">Ver Producto</button>
     </div>

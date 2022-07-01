@@ -3,6 +3,10 @@
   font-style: normal;
 }
 
+body {
+  background: #f1f1f1;
+}
+
 body::-webkit-scrollbar {
   width: 10px;
 }
@@ -34,13 +38,12 @@ body::-webkit-scrollbar-thumb {
   border-radius: 10px 0 0 10px;
   padding: 0.5rem;
   width: 60%;
-  background: #f5f5f5;
   border: none;
   outline: none;
 }
 
 .btnSearch {
-  background: #f5f5f5;
+  background: white;
   border: none;
   display: flex;
   align-items: center;
@@ -65,6 +68,8 @@ body::-webkit-scrollbar-thumb {
   cursor: pointer;
   background: transparent;
   padding: 0.6rem 3rem;
+  border-radius: 10px;
+  background-color: white;
 }
 
 .Banner {
@@ -78,6 +83,7 @@ body::-webkit-scrollbar-thumb {
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-start;
+  border-radius: 30px;
 }
 
 .BannerText {
@@ -95,6 +101,7 @@ body::-webkit-scrollbar-thumb {
   padding: 0.8rem 1.3rem;
   border: none;
   cursor: pointer;
+  border-radius: 10px;
 }
 
 .CardData {
@@ -138,24 +145,76 @@ body::-webkit-scrollbar-thumb {
 .Card {
   width: 180px;
   display: flex;
+  position: relative;
   flex-direction: column;
   align-items: flex-start;
+  justify-content: center;
   line-height: 7px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
 }
+
+/* BOTONES ADMIN */
+.ContainerBtnAdminnone{
+  display: none;
+}
+
+.ContainerBtnAdmin{
+  display: flex;
+  gap: 1rem;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  color: white;
+  cursor: pointer;
+}
+/*  */
+
 
 .ImgCard {
   width: 100%;
   height: auto;
+  border-radius: 10px;
+}
+
+.ContainerIconCart {
+  display: flex;
+  width: 96%;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.btnCart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  color: #2a7ae4;
+  border: solid #2a7ae4 1px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btnCart:hover{
+  border-color: white;
+  background-color: #2a7ae4;
+  color: white;
+}
+
+.IconCart {
+  width: 20px;
+  height: 20px;
 }
 
 .h1name {
-  margin-top: 18px;
   font-size: medium;
   font-weight: 100;
 }
 
 .h1price {
-  font-size: larger;
+  font-size: medium;
 }
 
 .btnCard {
@@ -164,16 +223,75 @@ body::-webkit-scrollbar-thumb {
   border: none;
   font-weight: 700;
   font-size: 16px;
-  padding: 0%;
   cursor: pointer;
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
+
+
+/* CONTACTO */
+
+footer{
+  background-color: #EAF2FD;
+  padding: 10rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.LogoFooter{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ContainerLogoFooter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.link{
+  color: black;
+}
+
+.form_Contacto{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 500px;
+  margin-top: 1rem;
+
+}input, textarea{
+    border: none;
+    border-radius: 20px;
+    padding: 1rem;
+    resize: none;
+
+    
+}textarea{
+    height: 100px;
+}
+
+.Btn_Contacto{
+  background-color: #2a7ae4;
+  color: white;
+  font-size: small;
+  padding: 0.8rem 1.3rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+/*  */
+
 
 @media (max-width: 900px) {
   .NavBar {
     margin: 1rem 0;
     display: flex;
     justify-content: space-around;
-    background-color: white;
     position: relative;
     z-index: 3;
   }
@@ -208,7 +326,7 @@ body::-webkit-scrollbar-thumb {
     padding: 0.4rem 2rem;
   }
 
-  .Banner{
+  .Banner {
     height: 35vh;
     position: relative;
     z-index: 2;
@@ -229,8 +347,7 @@ body::-webkit-scrollbar-thumb {
 
   .btnBanner {
     font-size: small;
-    padding: 0.5rem .8rem;
-
+    padding: 0.5rem 0.8rem;
   }
 
   .ContainerbtnLogin {
@@ -270,4 +387,24 @@ body::-webkit-scrollbar-thumb {
     align-items: flex-start;
     margin-top: 1rem;
   }
+
+  footer{
+    flex-direction: column;
+    padding: 2rem;
+    gap: 2rem;
+  }
+
+
+  .form_Contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    margin-top: 1rem;}
+    h2{
+      display: flex;
+      justify-content: center;
+    }
+  
 }
