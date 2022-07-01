@@ -73,17 +73,12 @@ body::-webkit-scrollbar-thumb {
 }
 
 .Banner {
-  border: solid;
-  height: 40vh;
+  height: auto;
   background-image: url("https://as2.ftcdn.net/v2/jpg/03/08/57/39/1000_F_308573978_cskhOCNR7Klh5m7ey0KfBA0TnDZIjdeB.jpg");
   background-size: 100% 100%;
-  background-repeat: no-repeat;
   color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: flex-start;
   border-radius: 30px;
+  position: relative;
 }
 
 .BannerText {
