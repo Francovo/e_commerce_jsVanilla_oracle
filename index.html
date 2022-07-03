@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="/index.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/styles/index_All.css" media="screen" />
     <title>E_Commerce</title>
   </head>
   <body onload="GetData()">
@@ -34,7 +34,9 @@
       <div class="BannerText">
         <h1 class="TextPromo">Febrero Promocional</h1>
         <h4>Productos seleccionados con 33% de descuento</h4>
-        <button class="btnBanner">Ver Consolas</button>
+        <button class="btnBanner" onclick="{RedirectAll(2)}">
+          Ver Consolas
+        </button>
       </div>
     </div>
 
@@ -65,57 +67,7 @@
       <div id="Diversos" class="containerCard"></div>
     </div>
 
-    <footer>
-      <div class="ContainerLogoFooter">
-        <div class="LogoFooter">
-          <img
-            class="ImgFooter"
-            src="https://res.cloudinary.com/aca-geek/image/upload/v1656603820/E_Commerce/LOGO_xftssz.png"
-          />
-          <div style="display: flex">
-            <h1 style="color: #2a7ae4">E_</h1>
-            <h1>Commerce</h1>
-          </div>
-          <a
-            href="https://portafolio-franco.vercel.app"
-            target="_blank"
-            class="link"
-          >
-            Quienes somos
-          </a>
-          <div
-            style="display: flex; flex-direction: column; align-items: center"
-          >
-            <h4>
-              <h3 style="color: #2a7ae4">DEVELOPED BY</h3>
-              <h4>FRANCO VELASCO OCAMPO</h4>
-            </h4>
-          </div>
-        </div>
-      </div>
-
-      <div>
-        <h2>Hable con nosotros</h2>
-        <form ref="{formRef}" onSubmit="{SendEmail}" class="form_Contacto">
-          <input placeholder="Nombre" id="nombre" name="nombre" required />
-          <input
-            placeholder="Email"
-            type="email"
-            id="email"
-            name="email"
-            required
-          />
-          <textarea
-            placeholder="Mensaje"
-            id="mensaje"
-            name="mensaje"
-            required
-            maxlength="300"
-          ></textarea>
-          <button type="submit" class="Btn_Contacto">Enviar</button>
-        </form>
-      </div>
-    </footer>
+      <iframe class="Footer" src="./Contacto.html"></iframe>
     <script
       type="module"
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"

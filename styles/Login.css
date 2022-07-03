@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+}
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+}
+
+body {
+  background: #f1f1f1;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #2a7ae4;
+}
+
+.NavBar {
+  margin: 1rem 6rem;
+  display: flex;
+  align-items: center;
+}
+
+.btnLogo {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+}
+
+.ImgLogo {
+  margin-right: 1rem;
+}
+
+.ContainerLogin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 10rem 10rem 10rem;
+}
+
+.form_Contacto {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 500px;
+  margin-top: 1rem;
+}
+input,
+textarea {
+  border: none;
+  border-radius: 20px;
+  padding: 1rem;
+  resize: none;
+}
+textarea {
+  height: 100px;
+}
+
+.Btn_Contacto {
+  background-image: radial-gradient(
+    circle at 6.46% 80.49%,
+    #0089e2 0,
+    #0086e8 8.33%,
+    #0083ec 16.67%,
+    #007fed 25%,
+    #007aed 33.33%,
+    #0074ea 41.67%,
+    #486ee5 50%,
+    #6c67de 58.33%,
+    #8660d6 66.67%,
+    #9b58cb 75%,
+    #ac4fc0 83.33%,
+    #ba47b3 91.67%,
+    #c63ea5 100%
+  );
+  color: white;
+  font-size: small;
+  padding: 0.8rem 1.3rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.Btn_Registro {
+  background-image: radial-gradient(
+    circle at 76.58% 3.97%,
+    #0088e5 0,
+    #0085e9 8.33%,
+    #0082ec 16.67%,
+    #007eed 25%,
+    #0079ec 33.33%,
+    #0074ea 41.67%,
+    #486ee5 50%,
+    #6a68df 58.33%,
+    #8361d7 66.67%,
+    #9759ce 75%,
+    #a851c3 83.33%,
+    #b649b7 91.67%,
+    #c241ab 100%
+  );
+  color: white;
+  font-size: small;
+  padding: 0.8rem 1.3rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.Footer {
+  width: 100%;
+  height: 605px;
+  border: none;
+  padding: 0;
+}
+
+@media (max-width: 900px) {
+  footer {
+    flex-direction: column;
+    padding: 2rem;
+    gap: 2rem;
+  }
+
+  .ImgFooter {
+    width: 100px;
+  }
+
+  .form_Contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    margin-top: 1rem;
+  }
+  h2 {
+    display: flex;
+    justify-content: center;
+  }
+}

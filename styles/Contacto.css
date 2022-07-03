@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+}
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+}
+
+body {
+  background: #f1f1f1;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #2a7ae4;
+}
+
+footer {
+  background-color: #eaf2fd;
+  padding: 5rem 10rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.LogoFooter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ContainerLogoFooter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.link {
+  color: black;
+}
+
+.form_Contacto {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 500px;
+  margin-top: 1rem;
+}
+input,
+textarea {
+  border: none;
+  border-radius: 20px;
+  padding: 1rem;
+  resize: none;
+}
+textarea {
+  height: 100px;
+}
+
+.Btn_Contacto {
+  background-color: #2a7ae4;
+  color: white;
+  font-size: small;
+  padding: 0.8rem 1.3rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+@media (max-width: 900px) {
+  footer {
+    flex-direction: column;
+    padding: 2rem;
+    gap: 2rem;
+  }
+
+  .ImgFooter {
+    width: 100px;
+  }
+
+  .form_Contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    margin-top: 1rem;
+  }
+  h2 {
+    display: flex;
+    justify-content: center;
+  }
+}

@@ -1,4 +1,4 @@
-async function GetData() {
+async function GetDataAll() {
   const response = await fetch(
     "https://ecommerceoracle.herokuapp.com/productos"
   );
@@ -6,7 +6,7 @@ async function GetData() {
   return Data;
 }
 
-GetData().then((Data) => {
+GetDataAll().then((Data) => {
   let StarWars = Data[0].categorias[0].starwars;
   let Consolas = Data[0].categorias[1].consolas;
   let Diversos = Data[0].categorias[2].diversos;

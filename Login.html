@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/styles/Login.css"
+      media="screen"
+    />
+    <script defer src="./components/GetData.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="NavBar">
+        <button class="btnLogo" onclick="{RedirectHome()}">
+          <img
+            src="https://res.cloudinary.com/aca-geek/image/upload/v1656603820/E_Commerce/LOGO_xftssz.png"
+            height="35px"
+            class="ImgLogo"
+          />
+          <h1 style="color: #2a7ae4" class="TextLogo">E_</h1>
+          <h1 class="TextLogo">Commerce</h1>
+        </button>
+        </div>
+
+      </nav>
+    <div class="ContainerLogin">
+      <h2>Iniciar Sesion</h2>
+      <form class="form_Contacto">
+        <input
+        placeholder="Email"
+        type="email"
+        id="email"
+        name="email"
+      />
+        <input
+        placeholder="Contraseña"
+        type="password"
+        id="password"
+        name="password"
+      />
+      <button type="button" class="Btn_Contacto" onclick="LoginData()">Ingresar</button>
+      <button type="button" class="Btn_Registro">Registrarme</button>
+    </form>
+    </div>
+
+    <iframe class="Footer" src="./Contacto.html"></iframe>
+  </body>
+</html>
