@@ -7,11 +7,15 @@ async function GetData() {
   let Consolas = Data[0].categorias[1].consolas;
   let Diversos = Data[0].categorias[2].diversos;
 
+
+  let Log = (window.localStorage.getItem("Login"))
+
   StarWars.map((data, index) => {
+
     if (index <= 5) {
       document.getElementById("StarWars").innerHTML += `
           <div class="Card"  key={${index}}>
-          <div class="ContainerBtnAdminnone">
+          <div class="ContainerBtnAdminnone" id="TypeAdmin">
           <ion-icon name="pencil"></ion-icon>
           <ion-icon name="trash"></ion-icon>
           </div>
@@ -75,6 +79,9 @@ async function GetData() {
   });
 }
 
+
+
+
 async function LoginData() {
   const response = await fetch(
     "https://ecommerceoracle.herokuapp.com/usuarios"
@@ -87,11 +94,14 @@ async function LoginData() {
 
   if (valid) {
     valid.contraseña === contraseña
-      ? window.location.assign(`http://127.0.0.1:5500/index.html`)
+      ? window.location.assign(`http://127.0.0.1:5500/index.html`) &
+        window.localStorage.setItem("Login", true)
       : alert("Contraseña Incorrecta");
   } else {
     alert("Usuario no registrado");
   }
+
+  console.log(window.localStorage.getItem("Login"));
   return DataUser;
 }
 
@@ -106,4 +116,8 @@ const RedirectAll = (cont) => {
 
 const RedirectHome = () => {
   window.location.assign("http://127.0.0.1:5500/index.html");
+};
+
+const RedirectLogin = () => {
+  window.location.assign("http://127.0.0.1:5500/Login.html");
 };

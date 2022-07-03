@@ -26,5 +26,10 @@ const SendEmail = () => {
       function (error) {
         console.log("FAILED...", error);
       }
+    )
+    .then(
+      document.getElementById("nombre").value = "",
+      document.getElementById("email").value = "",
+      document.getElementById("mensaje").value = "",
     );
 };
