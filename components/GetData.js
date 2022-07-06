@@ -96,30 +96,30 @@ async function LoginData() {
 
 const logout = () => {
 	window.localStorage.removeItem('Login', false);
-	window.location.assign('http://127.0.0.1:5500/Login.html');
+	window.location.assign('https://e-commerce-js-vanilla.vercel.app/Login.html');
 };
 
 const RedirectAll = (cont) => {
 	//Aqui estoy definiendo los datos que usare luego en el useParams del allJs
-	window.location.assign(`http://127.0.0.1:5500/all.html?cont=${cont}`);
+	window.location.assign(`https://e-commerce-js-vanilla.vercel.app/all.html?cont=${cont}`);
 };
 
 const RedirectHome = () => {
-	window.location.assign('http://127.0.0.1:5500/index.html');
+	window.location.assign('https://e-commerce-js-vanilla.vercel.app/index.html');
 };
 
 const RedirectLogin = () => {
-	window.location.assign('http://127.0.0.1:5500/Login.html');
+	window.location.assign('https://e-commerce-js-vanilla.vercel.app/Login.html');
 };
 
 const RedirectRegistro = () => {
-	window.location.assign('http://127.0.0.1:5500/Registro.html');
+	window.location.assign('https://e-commerce-js-vanilla.vercel.app/Registro.html');
 };
 
 const RedirectNewProduct = () => {
-	window.location.assign('http://127.0.0.1:5500/AgregarProducto.html');
+	window.location.assign('https://e-commerce-js-vanilla.vercel.app/AgregarProducto.html');
 };
 
 const RedirectCarrito = () => {
-	window.location.assign('http://127.0.0.1:5500/Carrito.html');
+	window.location.assign('https://e-commerce-js-vanilla.vercel.app/Carrito.html');
 };
