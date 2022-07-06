@@ -1,5 +1,5 @@
 const RedirectLogin = () => {
-	window.location.assign('http://127.0.0.1:5500/Login.html');
+	window.location.assign('https://e-commerce-js-vanilla.vercel.app/Login.html');
 };
 
 //Metodo POST envio de datos
