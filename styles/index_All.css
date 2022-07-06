@@ -1,343 +1,364 @@
 * {
-  font-family: Arial, Helvetica, sans-serif;
-  font-style: normal;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
 }
 
 body {
-  background: #f1f1f1;
+	background: #f1f1f1;
 }
 
 body::-webkit-scrollbar {
-  width: 10px;
+	width: 10px;
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #2a7ae4;
+	background-color: #2a7ae4;
 }
 
 .NavBar {
-  margin: 1rem 6rem;
-  display: flex;
-  align-items: center;
+	margin: 1rem 6rem;
+	display: flex;
+	align-items: center;
 }
 
 .btnLogo {
-  cursor: pointer;
-  background: transparent;
-  border: none;
-  display: flex;
-  align-items: center;
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	display: flex;
+	align-items: center;
 }
 
 .ImgLogo {
-  margin-right: 1rem;
+	margin-right: 1rem;
 }
 
 .InputSearch {
-  margin-left: 2rem;
-  border-radius: 10px 0 0 10px;
-  padding: 0.5rem;
-  width: 60%;
-  border: none;
-  outline: none;
+	margin-left: 2rem;
+	border-radius: 10px 0 0 10px;
+	padding: 0.5rem;
+	width: 60%;
+	border: none;
+	outline: none;
 }
 
 .btnSearch {
-  background: white;
-  border: none;
-  display: flex;
-  align-items: center;
-  border-radius: 0 10px 10px 0;
-  cursor: pointer;
+	background: white;
+	border: none;
+	display: flex;
+	align-items: center;
+	border-radius: 0 10px 10px 0;
+	cursor: pointer;
 }
 
 .icon {
-  color: #a2a2a2;
-  height: 29px;
-  width: 17px;
+	color: #a2a2a2;
+	height: 29px;
+	width: 17px;
 }
 
 .ContainerbtnLogin {
-  width: 100%;
-  display: flex;
-  justify-content: flex-end;
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
 }
 .BtnLogin {
-  color: #2a7ae4;
-  border-color: #2a7ae4;
-  cursor: pointer;
-  background: transparent;
-  padding: 0.6rem 3rem;
-  border-radius: 10px;
-  background-color: white;
+	color: #2a7ae4;
+	border-color: #2a7ae4;
+	cursor: pointer;
+	background: transparent;
+	padding: 0.6rem 3rem;
+	border-radius: 10px;
+	background-color: white;
 }
 
 .Banner {
-  height: 40vh;
-  color: white;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%),
-    url("https://res.cloudinary.com/aca-geek/image/upload/v1656717840/E_Commerce/banner_ksmzjy.png");
-  border-radius: 30px;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  position: relative;
+	height: 40vh;
+	color: white;
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%),
+		url('https://res.cloudinary.com/aca-geek/image/upload/v1656717840/E_Commerce/banner_ksmzjy.png');
+	border-radius: 30px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	position: relative;
 }
 
 .BannerText {
-  padding: 6rem 7rem;
+	padding: 6rem 7rem;
 }
 
 .TextPromo {
-  font-size: 27px;
+	font-size: 27px;
 }
 
 .btnBanner {
-  background-color: #2a7ae4;
-  color: white;
-  font-size: small;
-  padding: 0.8rem 1.3rem;
-  border: none;
-  cursor: pointer;
-  border-radius: 10px;
+	background-color: #2a7ae4;
+	color: white;
+	font-size: small;
+	padding: 0.8rem 1.3rem;
+	border: none;
+	cursor: pointer;
+	border-radius: 10px;
 }
 
 .CardData {
-  margin: 3rem 7rem;
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
+	margin: 3rem 7rem;
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
 }
 
 .containerCard {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 2rem;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 2rem;
 }
 
 .Type {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 
 .btnType {
-  color: #2a7ae4;
-  font-size: 15px;
-  display: flex;
-  font-weight: bold;
-  border: none;
-  background: transparent;
-  align-items: center;
-  margin-right: 2rem;
-  gap: 10px;
-  cursor: pointer;
+	color: #2a7ae4;
+	font-size: 15px;
+	display: flex;
+	font-weight: bold;
+	border: none;
+	background: transparent;
+	align-items: center;
+	margin-right: 2rem;
+	gap: 10px;
+	cursor: pointer;
+}
+
+.btnTypeAdmin {
+	color: white;
+	padding: 7px;
+	font-size: 15px;
+	display: flex;
+	font-weight: bold;
+	border: solid #2a7ae4;
+	background-color: #2a7ae4;
+	border-radius: 10px;
+	align-items: center;
+	margin-right: 2rem;
+	gap: 10px;
+	cursor: pointer;
 }
 
 .IconArrow {
-  width: 20px;
-  height: 20px;
+	width: 20px;
+	height: 20px;
 }
 
 .Card {
-  width: 170px;
-  display: flex;
-  position: relative;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  line-height: 7px;
-  background-color: white;
-  padding: 10px;
-  border-radius: 10px;
+	width: 170px;
+	display: flex;
+	position: relative;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	line-height: 7px;
+	background-color: white;
+	padding: 10px;
+	border-radius: 10px;
 }
 
 /* BOTONES ADMIN */
 .ContainerBtnAdminnone {
-  display: none;
+	display: none;
 }
 
 .ContainerBtnAdmin {
-  display: flex;
-  gap: 1rem;
-  position: absolute;
-  right: 20px;
-  top: 20px;
-  color: white;
-  cursor: pointer;
+	display: flex;
+	gap: 1rem;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	color: white;
+	cursor: pointer;
 }
 /*  */
 
 .ImgCard {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
 }
 
 .ContainerIconCart {
-  display: flex;
-  width: 96%;
-  align-items: center;
-  justify-content: space-between;
-  margin-top: 10px;
+	display: flex;
+	width: 96%;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 10px;
 }
 
 .btnCart {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: transparent;
-  color: #2a7ae4;
-  border: solid #2a7ae4 1px;
-  cursor: pointer;
-  border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: transparent;
+	color: #2a7ae4;
+	border: solid #2a7ae4 1px;
+	cursor: pointer;
+	border-radius: 5px;
 }
 
 .btnCart:hover {
-  border-color: white;
-  background-color: #2a7ae4;
-  color: white;
+	border-color: white;
+	background-color: #2a7ae4;
+	color: white;
 }
 
 .IconCart {
-  width: 20px;
-  height: 20px;
+	width: 20px;
+	height: 20px;
 }
 
 .h1name {
-  font-size: medium;
-  font-weight: 100;
+	font-size: medium;
+	font-weight: 100;
 }
 
 .h1price {
-  font-size: medium;
+	font-size: medium;
 }
 
 .btnCard {
-  color: #2a7ae4;
-  background: transparent;
-  border: none;
-  font-weight: 700;
-  font-size: 16px;
-  cursor: pointer;
-  margin-top: 5px;
-  display: flex;
-  justify-content: center;
-  width: 100%;
+	color: #2a7ae4;
+	background: transparent;
+	border: none;
+	font-weight: 700;
+	font-size: 16px;
+	cursor: pointer;
+	margin-top: 5px;
+	display: flex;
+	justify-content: center;
+	width: 100%;
 }
 
 /* CONTACTO */
 
 .Footer {
-  width: 100%;
-  height: 605px;
-  border: none;
-  padding: 0;
+	width: 100%;
+	height: 605px;
+	border: none;
+	padding: 0;
 }
 /*  */
 
 @media (max-width: 900px) {
-  .NavBar {
-    margin: 1rem 0;
-    display: flex;
-    justify-content: space-around;
-    position: relative;
-    z-index: 3;
-  }
+	.NavBar {
+		margin: 1rem 0;
+		display: flex;
+		justify-content: space-around;
+		position: relative;
+		z-index: 3;
+	}
 
-  .TextLogo {
-    display: none;
-  }
+	.TextLogo {
+		display: none;
+	}
 
-  .InputSearch {
-    border-radius: 10px;
-    width: 150px;
-    margin: 0;
-  }
+	.InputSearch {
+		border-radius: 10px;
+		width: 150px;
+		margin: 0;
+	}
 
-  .btnSearch {
-    display: none;
-  }
+	.btnSearch {
+		display: none;
+	}
 
-  .btnLogo {
-    width: fit-content;
-  }
+	.btnLogo {
+		width: fit-content;
+	}
 
-  .ImgLogo {
-    margin: 0;
-  }
+	.ImgLogo {
+		margin: 0;
+	}
 
-  .BtnLogin {
-    color: #2a7ae4;
-    border-color: #2a7ae4;
-    cursor: pointer;
-    background: transparent;
-    padding: 0.4rem 2rem;
-  }
+	.BtnLogin {
+		color: #2a7ae4;
+		border-color: #2a7ae4;
+		cursor: pointer;
+		background: transparent;
+		padding: 0.4rem 2rem;
+	}
 
-  .Banner {
-    margin-top: 2rem;
-    height: auto;
-  }
+	.Banner {
+		margin-top: 2rem;
+		height: auto;
+	}
 
-  .BannerText {
-    padding: 2rem 1rem 1rem 1rem;
-    flex-wrap: wrap;
-    font-size: 13px;
-  }
+	.BannerText {
+		padding: 2rem 1rem 1rem 1rem;
+		flex-wrap: wrap;
+		font-size: 13px;
+	}
 
-  .TextPromo {
-    font-size: 20px;
-  }
+	.TextPromo {
+		font-size: 20px;
+	}
 
-  .btnBanner {
-    font-size: small;
-    padding: 0.5rem 0.8rem;
-  }
+	.btnBanner {
+		font-size: small;
+		padding: 0.5rem 0.8rem;
+	}
 
-  .ContainerbtnLogin {
-    width: fit-content;
-  }
+	.ContainerbtnLogin {
+		width: fit-content;
+		display: flex;
+		flex-direction: column;
+	}
 
-  .Type {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 350px;
-    margin-top: 3rem;
-    height: 50px;
-  }
-  .btnType {
-    margin-right: 0;
-    gap: 10px;
-  }
+	.Type {
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		width: 350px;
+		margin-top: 3rem;
+		height: 50px;
+	}
+	.btnType {
+		margin-right: 0;
+		gap: 10px;
+	}
 
-  .containerCard {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 10px;
-  }
-  .CardData {
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-  }
-  .Card {
-    width: 145px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-top: 1rem;
-  }
+	.btnTypeAdmin {
+		margin-right: 0;
+		gap: 10px;
+	}
 
-  .Footer {
-    width: 100%;
-    height: 900px;
-    border: none;
-    margin-top: 2rem;
-  }
+	.containerCard {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		gap: 10px;
+	}
+	.CardData {
+		margin: 0;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 10px;
+	}
+	.Card {
+		width: 145px;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		margin-top: 1rem;
+	}
+
+	.Footer {
+		width: 100%;
+		height: 900px;
+		border: none;
+		margin-top: 2rem;
+	}
 }

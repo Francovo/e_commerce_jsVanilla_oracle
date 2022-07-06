@@ -1,0 +1,156 @@
+* {
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+}
+
+body {
+	background: #f1f1f1;
+}
+
+body::-webkit-scrollbar {
+	width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+	background-color: #2a7ae4;
+}
+
+.NavBar {
+	margin: 1rem 6rem;
+	display: flex;
+	align-items: center;
+}
+
+.btnLogo {
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	display: flex;
+	align-items: center;
+}
+
+.ImgLogo {
+	margin-right: 1rem;
+}
+
+.InputSearch {
+	margin-left: 2rem;
+	border-radius: 10px 0 0 10px;
+	padding: 0.5rem;
+	width: 60%;
+	border: none;
+	outline: none;
+}
+
+.btnSearch {
+	background: white;
+	border: none;
+	display: flex;
+	align-items: center;
+	border-radius: 0 10px 10px 0;
+	cursor: pointer;
+}
+
+.icon {
+	color: #a2a2a2;
+	height: 29px;
+	width: 17px;
+}
+
+.ContainerbtnLogin {
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+}
+.BtnLogin {
+	color: #2a7ae4;
+	border-color: #2a7ae4;
+	cursor: pointer;
+	background: transparent;
+	padding: 0.6rem 3rem;
+	border-radius: 10px;
+	background-color: white;
+}
+
+/* CONTACTO */
+.Footer {
+	width: 100%;
+	height: 605px;
+	border: none;
+	padding: 0;
+}
+
+/* BOTONES ADMIN */
+.ContainerBtnAdminnone {
+	display: none;
+}
+
+.ContainerBtnAdmin {
+	display: flex;
+	gap: 1rem;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	color: white;
+	cursor: pointer;
+}
+/*  */
+
+.ContainerCarrito {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.container-carrito {
+	width: 70%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 1rem;
+}
+
+.lista-carrito {
+	width: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 2rem;
+}
+
+tr {
+	display: flex;
+	align-items: center;
+}
+
+td {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+th {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 1rem;
+	width: 100%;
+}
+
+.imgCar {
+	width: 100px;
+}
+
+.btnDelete {
+	padding: 0.5rem 2rem;
+	color: #2a7ae4;
+	border: solid #2a7ae4;
+	cursor: pointer;
+	border-radius: 10px;
+	font-size: medium;
+}
+
+.btnDelete:hover {
+	background-color: #2a7ae4;
+	color: white;
+}

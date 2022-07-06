@@ -10,7 +10,8 @@
       href="/styles/Login.css"
       media="screen"
     />
-    <title>Registro</title>
+    <script defer src="./components/RegistroProducto.js"></script>
+    <title>Document</title>
   </head>
   <body>
     <nav class="NavBar">
@@ -24,36 +25,46 @@
           <h1 class="TextLogo">Commerce</h1>
         </button>
         </div>
+
       </nav>
     <div class="ContainerLogin">
-      <h2>Registro</h2>
-      <form ref="{formRef}" onSubmit="{SendEmail}" class="form_Contacto">
+      <h2>Iniciar Sesion</h2>
+      <form class="form_Contacto">
         <input
-        placeholder="Nombre"
-        type="nombre"
-        id="nombre"
-        name="nombre"
-        required
+        placeholder="URL de la imagen"
+        type="url"
+        id="url"
+        name="url"
       />
         <input
-        placeholder="Email"
-        type="email"
-        id="email"
-        name="email"
-        required
-      />
-        <input
-        placeholder="Contraseña"
-        type="password"
-        id="password"
-        name="password"
-        required
-      />
-        <button type="button" class="Btn_Registro" onclick="envioPost()">Registrarme</button>
-      </form>
+        placeholder="Categoria"
+        type="text"
+        id="categoria"
+        name="categoria"
+      />        
+      <input
+      placeholder="Nombre del Producto"
+      type="text"
+      id="name"
+      name="name"
+    />
+      <input
+      placeholder="Precio del Producto"
+      type="number"
+      id="precio"
+      name="precio"
+    />        
+    <input
+    placeholder="Descripcion del Producto"
+    type="text"
+    id="descripcion"
+    name="descripcion"
+  />
+
+      <button type="button" class="Btn_Contacto" onclick="envioPost()">Registrar Nuevo Producto</button>
+    </form>
     </div>
 
     <iframe class="Footer" src="./Contacto.html"></iframe>
-    <script src="./components/Registro.js"></script>
   </body>
 </html>
