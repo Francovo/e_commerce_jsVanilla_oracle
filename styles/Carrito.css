@@ -74,8 +74,9 @@ body::-webkit-scrollbar-thumb {
 
 /* CONTACTO */
 .Footer {
+	margin-top: 4rem;
 	width: 100%;
-	height: 605px;
+	height: 905px;
 	border: none;
 	padding: 0;
 }
@@ -141,6 +142,11 @@ th {
 	width: 100px;
 }
 
+.containerbtn {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
 .btnDelete {
 	padding: 0.5rem 2rem;
 	color: #2a7ae4;
@@ -153,4 +159,73 @@ th {
 .btnDelete:hover {
 	background-color: #2a7ae4;
 	color: white;
+}
+
+@media (max-width: 900px) {
+	.NavBar {
+		margin: 1rem 0;
+		display: flex;
+		justify-content: space-around;
+		position: relative;
+		z-index: 3;
+	}
+
+	.TextLogo {
+		display: none;
+	}
+
+	.InputSearch {
+		border-radius: 10px;
+		width: 150px;
+		margin: 0;
+	}
+
+	.btnSearch {
+		display: none;
+	}
+
+	.btnLogo {
+		width: fit-content;
+	}
+
+	.ImgLogo {
+		margin: 0;
+	}
+
+	.BtnLogin {
+		color: #2a7ae4;
+		border-color: #2a7ae4;
+		cursor: pointer;
+		background: transparent;
+		padding: 0.4rem 2rem;
+	}
+
+	.TextPromo {
+		font-size: 20px;
+	}
+
+	.btnBanner {
+		font-size: small;
+		padding: 0.5rem 0.8rem;
+	}
+
+	.ContainerbtnLogin {
+		width: fit-content;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.container-carrito {
+		width: 95%;
+		display: flex;
+		justify-content: center;
+	}
+
+	.imgCar {
+		width: 90px;
+	}
+
+	.lista-carrito {
+		padding: 0;
+	}
 }

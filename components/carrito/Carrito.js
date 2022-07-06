@@ -82,7 +82,6 @@ class Carrito {
 					<th>Nombre</th>
 					<th>Precio</th>
 					<th>Cantidad</th>
-					<th></th>
 					</tr>
 			
 				</thead>
@@ -101,14 +100,14 @@ class Carrito {
 				<td>
 					${info.cantidad}
 				</td>
-				<td>
-				<button onclick="EliminarProducto(${info.id})" class="btnDelete">
-					Eliminar
-				</button>
-				</td>
 				</tr>
 				</tbody>
 				</table>
+				<div class="containerbtn">
+				<button onclick="EliminarProducto(${info.id})" class="btnDelete">
+					Eliminar
+				</button>
+				</div>
 					</div>
 	`)
 			);
